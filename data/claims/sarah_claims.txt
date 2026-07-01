@@ -1,0 +1,22 @@
+Claims History for Sarah M. Member ID: SARAH-1001
+
+Claim ID: CLM-7781
+Service: Orthopedic Consultation
+Date: 2026-01-10
+Charge: $200
+Status: Approved
+Member Paid: $200
+Insurance Paid: $0
+Reason: Deductible not met
+
+Claim ID: CLM-8892
+Service: MRI Knee Scan
+Date: 2026-02-05
+Charge: $1000
+Status: Denied
+Denial Reason: Prior Authorization Missing
+Denial Code: PA_MISSING
+Provider: North Dallas Imaging Center
+
+EOB Summary:
+The MRI claim was denied because prior authorization was not obtained before the service date. Member may appeal with supporting documentation from ordering physician.
