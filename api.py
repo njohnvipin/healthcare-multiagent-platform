@@ -6,16 +6,16 @@ from services.ingestion_service import (
     process_uploaded_documents,
     process_and_ingest_documents,
 )
-from agents.orchestrator import OrchestratorAgent
-
+from agents.langgraph_orchestrator import (
+    LangGraphHealthcareOrchestrator,
+)
 app = FastAPI(
     title="Healthcare Multi-Agent AI Platform",
     description="The multi-agent healthcare insurance assistant with Orchestrator + specialized agents.",
     version="1.0.0",
 )
 
-orchestrator = OrchestratorAgent()
-
+orchestrator = LangGraphHealthcareOrchestrator()
 
 class ChatRequest(BaseModel):
     question: str
