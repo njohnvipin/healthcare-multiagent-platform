@@ -1,0 +1,29 @@
+EXPLANATION OF BENEFITS
+MEMBER AND CLAIM
+
+Member Name: Sarah Johnson
+
+Member ID: HS-102938
+
+Claim ID: CLM-2026-7788
+
+Service: MRI of Right Knee
+PAYMENT SUMMARY
+
+Provider Charged: $1,000.00
+
+Allowed Amount: $700.00
+
+Applied to Deductible: $300.00
+
+Plan Paid: $320.00
+
+Member Coinsurance: $80.00
+
+Member Responsibility: $380.00
+MESSAGE
+
+This Explanation of Benefits is not a bill.
+
+Contact Member Services if you believe this claim was processed incorrectly.
+SYNTHETIC TRAINING DOCUMENT — NOT REAL PHI

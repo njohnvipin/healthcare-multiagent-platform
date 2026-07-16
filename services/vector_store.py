@@ -52,17 +52,43 @@ def ingest_folder(collection_name: str, folder: str, doc_type: str) -> int:
     if not documents:
         return 0
 
-    embeddings = _embedding_model.encode(documents).tolist()
-    collection.add(documents=documents, metadatas=metadatas, ids=ids, embeddings=embeddings)
+    embeddings = _embedding_model.encode(
+    documents,
+    normalize_embeddings=True,
+    batch_size=32,
+    ).tolist()
+    collection.upsert(documents=documents, metadatas=metadatas, ids=ids, embeddings=embeddings,)
     return len(documents)
 
 
-def query_collection(collection_name: str, query: str, n_results: int = 3) -> Dict:
+def query_collection(
+    collection_name: str,
+    query: str,
+    n_results: int = 3,
+) -> Dict:
     collection = get_collection(collection_name)
-    query_embedding = _embedding_model.encode([query]).tolist()
-    return collection.query(query_embeddings=query_embedding, n_results=n_results)
 
+    if collection.count() == 0:
+        return {
+            "documents": [[]],
+            "metadatas": [[]],
+            "distances": [[]],
+        }
 
+    query_embedding = _embedding_model.encode(
+        [query],
+        normalize_embeddings=True,
+    ).tolist()
+
+    return collection.query(
+        query_embeddings=query_embedding,
+        n_results=min(n_results, collection.count()),
+        include=[
+            "documents",
+            "metadatas",
+            "distances",
+        ],
+    )
 def format_results(results: Dict) -> Dict:
     documents = results.get("documents", [[]])[0]
     metadatas = results.get("metadatas", [[]])[0]

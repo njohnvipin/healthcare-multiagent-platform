@@ -1,0 +1,21 @@
+PRIOR AUTHORIZATION REQUEST
+MEMBER
+Member Name: Sarah Johnson
+Member ID: HS-102938
+Plan: HealthSure Gold PPO
+REQUEST
+Requested Service: MRI of Right Knee
+Procedure Code: 73721
+Diagnosis: Persistent right knee pain
+Ordering Provider: Dr. Alex Martin
+CLINICAL JUSTIFICATION
+Symptoms persisted for more than six weeks.
+Conservative treatment with rest and physical therapy did not resolve
+symptoms.
+MRI requested to evaluate possible meniscus injury.
+AUTHORIZATION STATUS
+Status: Approved
+Authorization Number: AUTH-556677
+Valid From: 06/15/2026
+Valid Through: 07/15/2026
+SYNTHETIC TRAINING DOCUMENT — NOT REAL PHI

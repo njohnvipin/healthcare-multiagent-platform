@@ -1,0 +1,29 @@
+HEALTHSURE INSURANCE CARD
+MEMBER INFORMATION
+
+Member Name: Sarah Johnson
+
+Member ID: HS-102938
+
+Group Number: GRP-4455
+
+Plan: HealthSure Gold PPO
+
+Effective Date: 01/01/2026
+BENEFITS
+
+Primary Care Copay: $25
+
+Specialist Copay: $50
+
+Annual Deductible: $500
+
+Coinsurance After Deductible: Member 20% / Plan 80%
+
+Out-of-Pocket Maximum: $5,000
+CONTACT
+
+Member Services: 1-800-555-0101
+
+Claims Address: PO Box 1234, Dallas, TX 75001
+SYNTHETIC TRAINING DOCUMENT — NOT REAL PHI

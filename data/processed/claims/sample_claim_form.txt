@@ -1,0 +1,29 @@
+HEALTH INSURANCE CLAIM FORM
+PATIENT
+
+Patient Name: Sarah Johnson
+
+Member ID: HS-102938
+
+Date of Service: 06/18/2026
+PROVIDER
+
+Provider Name: Dallas Imaging Center
+
+Provider NPI: 1234567890
+CLAIM DETAILS
+
+Claim ID: CLM-2026-7788
+
+Procedure: MRI of Right Knee
+
+Procedure Code: 73721
+
+Diagnosis Code: M25.561
+
+Amount Billed: $1,000.00
+
+Claim Status: Denied
+
+Denial Reason: Prior Authorization Missing
+SYNTHETIC TRAINING DOCUMENT — NOT REAL PHI
